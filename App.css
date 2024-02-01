@@ -1,0 +1,77 @@
+.wrapper{
+  display: flex;
+  flex-flow: row wrap;
+  text-align:left ;
+}
+.wrapper>*{
+  padding: 10px;
+  margin: 10px;
+  flex: 1 100%;
+  border-radius: 10px;
+  
+}
+.wrapper h4{
+  margin-left: 30px;
+}
+.header{
+  background: whitesmoke;
+  height: 40px;
+}
+
+.main{
+  text-align: left;
+  background: whitesmoke;
+  height: 1200px;
+  font-size: 24px;
+}
+.aside1{
+  background: whitesmoke;
+text-align: center;
+color: black;
+
+}
+.aside3{
+  background:black;
+  color: aliceblue;
+  height: 1200px;
+}
+@media all and (min-width: 800px) {
+  .main{
+      flex:3;
+  }
+  .aside1{
+      order:1;
+  }
+  .main{
+      order: 4;
+  }
+}
+
+@media all and (min-width: 600px){
+  .aside{
+      flex: 1;
+  }
+}
+.form{
+  margin: 20;
+  line-height: 0.1px;
+
+}
+.inputBox{
+  display: block;
+  margin: 5px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+.register-button{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: blueviolet;
+  border: 1px solid;
+  cursor: pointer;
+}
+.Size-Profile{
+  line-height:8px;
+}
